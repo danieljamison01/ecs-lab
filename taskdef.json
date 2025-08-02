@@ -2,7 +2,7 @@
     "executionRoleArn": "arn:aws:iam::098528222736:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
-            "name": "sample-website",
+            "name": "httpd",
             "image": "<IMAGE1_NAME>",
             "essential": true,
             "portMappings": [
